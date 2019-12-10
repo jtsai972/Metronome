@@ -1,0 +1,73 @@
+/* CSS Variables
+------------------------------------------*/
+:root {
+  --inner-size: 5em;
+  --outer-size: 10em;
+  --primary-color: #69D2E7;
+  --secondary-color: #A7DBD8;
+}
+
+/* General CSS
+------------------------------------------*/
+* {
+  box-sizing: border-box;
+  transition-duration: 0.5s;
+  transition-property: width, height;
+  transition-timing-function: ease;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  width: 90%;
+    max-width: 1080px;
+}
+
+#toggle {
+  background: var(--primary-color);
+  border: none;
+    border-radius: 0.25em;
+  padding: 0.5em 1em;
+}
+
+#toggle:hover {
+  background: var(--secondary-color);
+}
+
+#counter{
+  font-size: 2em;
+}
+
+.metronome {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  margin: 1em auto;
+}
+
+.outer, #inner { 
+  border-radius: 100%; 
+}
+
+.outer {
+  background: transparent;
+  border: 0.25em solid var(--secondary-color);
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  height: var(--outer-size);
+  width: var(--outer-size);
+}
+#inner {
+  background: var(--primary-color);
+  height: var(--inner-size);
+  width: var(--inner-size);
+}
