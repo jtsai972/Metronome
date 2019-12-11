@@ -14,7 +14,7 @@ button.addEventListener("click", function() {
     button.setAttribute("class", "active");
     button.textContent = "Stop Timer";
     
-    timer = setInterval(countTimer, 1000);
+    timer = setInterval(countTimer, 500);
   } else {
     clearInterval(timer);
 
@@ -29,8 +29,14 @@ button.addEventListener("click", function() {
 function countTimer() {
   
   // console.log(count);
-  count++;
-  counter.textContent = count;
+  if (isBeat) {
+    count++;
+    counter.textContent = count;
+
+    isBeat = false;
+  } else {
+    isBeat = true;
+  }
 
   setSize();
 }
@@ -39,8 +45,8 @@ function setSize() {
   let start="5em";
   let size = "10em"
 
-  inner.style.width = (isBeat) ? size : start;
-  inner.style.height = (isBeat) ? size : start;
+  inner.style.width = (isBeat) ? start: size;
+  inner.style.height = (isBeat) ? start : "9.5em";
 
   console.log(inner.style.width);
 }
