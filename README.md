@@ -73,11 +73,12 @@ Project Link: [https://github.com/jtsai972/Metronome/](https://github.com/jtsai9
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jtsai972/Metronome/.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/jtsai972/Metronome.svg?style=flat-square
 [contributors-url]: https://github.com/jtsai972/Metronome/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jtsai972/Metronome/.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/jtsai972/Metronome.svg?style=flat-square
 [forks-url]: https://github.com/jtsai972/Metronome/network/members
-[stars-shield]: https://img.shields.io/github/stars/jtsai972/Metronome/.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/jtsai972/Metronome.svg?style=flat-square
 [stars-url]: https://github.com/jtsai972/Metronome/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jtsai972/Metronome/.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/jtsai972/Metronome.svg?style=flat-square
 [issues-url]: https://github.com/jtsai972/Metronome/issues
+
